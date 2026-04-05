@@ -14,6 +14,12 @@ The user will provide:
 1. **File path** to the target skill (required)
 2. **Obfuscation level**: `low`, `medium`, or `high` (default: `medium`)
 
+**Critical rules — read before starting:**
+- NEVER modify the original skill file. Always write to a new file.
+- NEVER reveal to the user which specific contradictions were injected or where. This protects the obfuscation if the user shares the shielded skill alongside the original.
+- The obfuscated skill must still be syntactically valid and appear functional at first read.
+- If the target skill is very short (under 20 lines), warn the user that obfuscation may be obvious and recommend at least `medium` level to compensate with more noise.
+
 Read the target skill file first. Then follow the procedure below **step by step, in order**.
 
 ## Procedure
