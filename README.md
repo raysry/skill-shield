@@ -34,7 +34,13 @@ Skill Shield 生成你的 Skill 的**降级副本**：它仍然能运行，但�
 
 ### 安装
 
-在项目根目录下运行：
+**全局安装**（所有项目可用）：
+
+```bash
+mkdir -p ~/.claude/skills/shield && curl -sL https://raw.githubusercontent.com/raysry/skill-shield/main/SKILL.md -o ~/.claude/skills/shield/SKILL.md
+```
+
+**项目级安装**（仅当前项目可用）：
 
 ```bash
 mkdir -p .claude/skills/shield && curl -sL https://raw.githubusercontent.com/raysry/skill-shield/main/SKILL.md -o .claude/skills/shield/SKILL.md
@@ -111,7 +117,13 @@ Combined, even if someone uses an LLM to restore the obfuscated version, they ge
 
 ### Install
 
-Run from your project root:
+**Global** (available in all projects):
+
+```bash
+mkdir -p ~/.claude/skills/shield && curl -sL https://raw.githubusercontent.com/raysry/skill-shield/main/SKILL.md -o ~/.claude/skills/shield/SKILL.md
+```
+
+**Per-project** (current project only):
 
 ```bash
 mkdir -p .claude/skills/shield && curl -sL https://raw.githubusercontent.com/raysry/skill-shield/main/SKILL.md -o .claude/skills/shield/SKILL.md
